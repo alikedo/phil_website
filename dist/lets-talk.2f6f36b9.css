@@ -1,0 +1,515 @@
+.lets-talk1 {
+  letter-spacing: -1px;
+  flex: 1;
+  line-height: 120%;
+  position: relative;
+}
+
+.line-icon {
+  object-fit: contain;
+  flex-shrink: 0;
+  align-self: stretch;
+  max-width: 100%;
+  height: .5px;
+  position: relative;
+  overflow: hidden;
+}
+
+.lets-talk-parent {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px 0;
+  width: 700px;
+  max-width: 100%;
+  height: 42px;
+  display: flex;
+}
+
+.arrange-a-call {
+  font-size: inherit;
+  letter-spacing: -1px;
+  margin: 0;
+  font-family: inherit;
+  font-weight: 700;
+  line-height: 120%;
+  position: relative;
+}
+
+.arrange-a-call-wrapper {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 700px;
+  max-width: 100%;
+  font-size: 58px;
+  display: flex;
+}
+
+.name-surname {
+  letter-spacing: -1px;
+  line-height: 120%;
+  position: relative;
+}
+
+.line, .text17 {
+  align-self: stretch;
+}
+
+.text17 {
+  border-top: 1px dashed var(--color-white);
+  box-sizing: border-box;
+  height: 1px;
+  position: relative;
+}
+
+.line {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px 0;
+  height: 41px;
+  display: flex;
+}
+
+.im-interested-in {
+  font-size: var(--font-size-11xl);
+  letter-spacing: -1px;
+  flex-shrink: 0;
+  width: 221px;
+  height: 31px;
+  line-height: 120%;
+  display: inline-block;
+  position: relative;
+}
+
+.name-surname-input {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 40px 0;
+  width: 300px;
+  min-width: 300px;
+  display: flex;
+}
+
+.e-mail-adress {
+  letter-spacing: -1px;
+  width: 152px;
+  line-height: 120%;
+  display: inline-block;
+  position: relative;
+}
+
+.frame1 {
+  border-top: 1px dashed var(--color-white);
+  box-sizing: border-box;
+  flex: 1;
+  height: 1px;
+  position: relative;
+}
+
+.frame-icon-text1, .line1 {
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.line1 {
+  padding: 0 0 0 var(--padding-11xs);
+  box-sizing: border-box;
+  flex-direction: row;
+  align-self: stretch;
+  height: 0;
+}
+
+.frame-icon-text1 {
+  flex-direction: column;
+  gap: 10px 0;
+  width: 290px;
+}
+
+.name-surname-input-parent {
+  justify-content: space-between;
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-xl);
+  flex-direction: row;
+  display: flex;
+}
+
+.icon13 {
+  object-fit: cover;
+  width: 40px;
+  height: 40px;
+  position: relative;
+}
+
+.text-frame {
+  letter-spacing: -1px;
+  line-height: 120%;
+  position: relative;
+}
+
+.frame-separator, .icon-text-frame1 {
+  flex-direction: row;
+  justify-content: flex-start;
+  display: flex;
+}
+
+.frame-separator {
+  flex: 1;
+  align-items: center;
+  gap: 0 7px;
+}
+
+.icon-text-frame1 {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0;
+}
+
+.icon14, .text18 {
+  position: relative;
+}
+
+.icon14 {
+  object-fit: cover;
+  width: 40px;
+  height: 40px;
+}
+
+.text18 {
+  letter-spacing: -1px;
+  line-height: 120%;
+}
+
+.icon-parent {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0 7px;
+  display: flex;
+}
+
+.icon-text-frame2, .message-area {
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.icon-text-frame2 {
+  flex-direction: row;
+  padding: 0;
+}
+
+.message-area {
+  flex-direction: column;
+  align-self: stretch;
+  gap: 30px 0;
+}
+
+.your-message {
+  font-size: var(--font-size-11xl);
+  letter-spacing: -1px;
+  color: var(--primary-text-white);
+  flex-shrink: 0;
+  align-self: stretch;
+  height: 31px;
+  line-height: 120%;
+  display: inline-block;
+  position: relative;
+}
+
+.icon-text-frame {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 45px 0;
+  width: 200px;
+  min-width: 200px;
+  display: flex;
+}
+
+.icon15, .text19 {
+  position: relative;
+}
+
+.icon15 {
+  object-fit: cover;
+  width: 40px;
+  height: 40px;
+}
+
+.text19 {
+  letter-spacing: -1px;
+  line-height: 120%;
+}
+
+.frame-container1, .frame-separator1 {
+  flex-direction: row;
+  justify-content: flex-start;
+  display: flex;
+}
+
+.frame-container1 {
+  flex: 1;
+  align-items: center;
+  gap: 0 7px;
+}
+
+.frame-separator1 {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0;
+}
+
+.icon16, .text20 {
+  position: relative;
+}
+
+.icon16 {
+  object-fit: cover;
+  width: 40px;
+  height: 40px;
+}
+
+.text20 {
+  letter-spacing: -1px;
+  line-height: 120%;
+}
+
+.frame-separator2, .icon-group {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+
+.icon-group {
+  gap: 0 7px;
+}
+
+.frame-separator2 {
+  align-self: stretch;
+}
+
+.double-icon-text-frame {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 30px 0;
+  width: 254px;
+  min-width: 254px;
+  display: flex;
+}
+
+.icon-text-frame-parent {
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: var(--gap-xl);
+  color: var(--color-white);
+  flex-direction: row;
+  width: 547px;
+  max-width: 100%;
+  display: flex;
+}
+
+.frame-icon-text, .frame-parent9 {
+  justify-content: flex-start;
+  align-items: flex-start;
+  max-width: 100%;
+  display: flex;
+}
+
+.frame-parent9 {
+  flex-direction: column;
+  flex: 1;
+  gap: 30px 0;
+}
+
+.frame-icon-text {
+  padding: 0 var(--padding-6xs) var(--padding-2xs) 0;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--heading-6-pr-size);
+  color: var(--primary-text-white);
+  font-family: var(--heading-6-pr);
+  flex-direction: row;
+  width: 700px;
+}
+
+.call-to-action {
+  border-top: 1px dashed var(--color-white);
+  box-sizing: border-box;
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+}
+
+.text21 {
+  font-size: 21.8px;
+  line-height: 125%;
+  font-family: var(--heading-6-pr);
+  color: var(--primary-text-white);
+  text-align: left;
+  position: relative;
+}
+
+.button, .line-separator {
+  flex-direction: row;
+  display: flex;
+}
+
+.button {
+  cursor: pointer;
+  border: 1.2px solid var(--gradient-1);
+  padding: var(--padding-3xs) var(--padding-14xl) var(--padding-4xs) var(--padding-13xl);
+  background-color: #0000;
+  border-radius: 121.03px;
+  justify-content: center;
+  align-items: center;
+}
+
+.button:hover {
+  background-color: var(--color-mediumorchid-200);
+  border: 1.2px solid var(--color-mediumorchid-100);
+  box-sizing: border-box;
+}
+
+.line-separator {
+  padding: 0 var(--padding-12xs) 0 var(--padding-6xs);
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.background-frame, .button-frame1, .lets-talk {
+  justify-content: flex-start;
+  max-width: 100%;
+  display: flex;
+}
+
+.button-frame1 {
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  gap: 35px 0;
+}
+
+.background-frame, .lets-talk {
+  padding: 0 var(--padding-6xs) 0 0;
+  box-sizing: border-box;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 700px;
+}
+
+.lets-talk {
+  border-radius: var(--br-base);
+  background-color: var(--hoverd);
+  backdrop-filter: blur(4px);
+  padding: 63px var(--padding-xl) var(--padding-45xl);
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--primary-text-white);
+  font-family: var(--heading-6-pr);
+  flex-direction: column;
+  align-items: center;
+  gap: 39px 0;
+  width: 840px;
+  max-width: 90%;
+  max-height: 90%;
+  position: relative;
+  overflow: auto;
+}
+
+@media screen and (width <= 750px) {
+  .lets-talk1 {
+    font-size: var(--heading-6-pr-size);
+    line-height: 29px;
+  }
+
+  .arrange-a-call {
+    font-size: 46px;
+    line-height: 56px;
+  }
+
+  .im-interested-in, .your-message {
+    font-size: var(--heading-6-pr-size);
+    line-height: 29px;
+  }
+
+  .button-frame1 {
+    gap: 35px 0;
+  }
+
+  .lets-talk {
+    gap: 39px 0;
+  }
+}
+
+@media screen and (width <= 675px) {
+  .name-surname-input {
+    flex: 1;
+  }
+
+  .name-surname-input-parent {
+    flex-wrap: wrap;
+  }
+
+  .double-icon-text-frame, .frame-container1, .icon-text-frame {
+    flex: 1;
+  }
+
+  .icon-text-frame-parent {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (width <= 450px) {
+  .lets-talk1 {
+    font-size: var(--heading-7-size);
+    line-height: 22px;
+  }
+
+  .arrange-a-call {
+    font-size: 35px;
+    line-height: 42px;
+  }
+
+  .name-surname {
+    font-size: var(--font-size-lgi);
+    line-height: 23px;
+  }
+
+  .im-interested-in {
+    font-size: var(--heading-7-size);
+    line-height: 22px;
+  }
+
+  .name-surname-input {
+    gap: 40px 0;
+  }
+
+  .e-mail-adress, .text-frame, .text18 {
+    font-size: var(--font-size-lgi);
+    line-height: 23px;
+  }
+
+  .your-message {
+    font-size: var(--heading-7-size);
+    line-height: 22px;
+  }
+
+  .text19, .text20 {
+    font-size: var(--font-size-lgi);
+    line-height: 23px;
+  }
+
+  .text21 {
+    font-size: var(--font-size-mid);
+    line-height: 22px;
+  }
+}
+/*# sourceMappingURL=lets-talk.2f6f36b9.css.map */

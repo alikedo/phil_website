@@ -1,0 +1,85 @@
+.framing-container-icon {
+  object-fit: cover;
+  width: 1028px;
+  height: 141px;
+  position: relative;
+}
+
+.case-study- {
+  flex-shrink: 0;
+  width: 911px;
+  line-height: 125%;
+  display: inline-block;
+  position: relative;
+}
+
+.i-t-v-case-study-frame {
+  padding: 0 var(--padding-base);
+  flex-direction: row;
+  justify-content: flex-start;
+  align-self: stretch;
+  align-items: flex-start;
+  display: flex;
+}
+
+.in-a-leadership1 {
+  font-size: var(--heading-6-pr-size);
+  line-height: 125%;
+  font-family: var(--heading-6-pr);
+  color: var(--primary-text-white);
+  text-align: left;
+  width: 1028px;
+  display: inline-block;
+  position: relative;
+}
+
+.steps-included {
+  margin: 0;
+}
+
+.coaching-of-the, .creation-of-a1, .creation-of-tools, .reducing-toxic-conflict {
+  margin-bottom: 0;
+}
+
+.creation-of-a-multi-year-strat {
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-13xl);
+  margin: 0;
+}
+
+.itv5, .steps-included-creation-container {
+  text-align: left;
+  color: var(--primary-text-white);
+  font-family: var(--heading-6-pr);
+  position: relative;
+}
+
+.steps-included-creation-container {
+  font-size: var(--heading-6-pr-size);
+  letter-spacing: -1px;
+  flex-shrink: 0;
+  width: 1028px;
+  height: 267px;
+  line-height: 120%;
+  display: inline-block;
+}
+
+.itv5 {
+  border-radius: var(--br-base);
+  background-color: var(--primary-1);
+  padding: var(--padding-15xl) var(--padding-xl);
+  box-sizing: border-box;
+  font-size: var(--heading-5-pr-size);
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 26px 0;
+  width: 1100px;
+  max-width: 90%;
+  max-height: 90%;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 0 4px 4px #00000040, 0 4px 4px #00000040;
+}
+/*# sourceMappingURL=i-t-v.fd8f2bd8.css.map */
